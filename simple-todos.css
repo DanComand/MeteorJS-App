@@ -2,7 +2,7 @@
 body {
   font-family: sans-serif;
   background-color: #315481;
-  background-image: linear-gradient(to bottom, #315481, #918e82 100%);
+  /*background-image: linear-gradient(to bottom, #315481, #918e82 100%);*/
   background-attachment: fixed;
 
   position: absolute;
@@ -26,9 +26,12 @@ body {
 
 header {
   background: #d2edf4;
-  background-image: linear-gradient(to bottom, #d0edf5, #e1e5f0 100%);
+  background-color: white;
   padding: 20px 15px 15px 15px;
   position: relative;
+  border-bottom: 1px solid black;
+  text-align: center;
+
 }
 
 #login-buttons {
@@ -41,6 +44,7 @@ h1 {
   margin-bottom: 10px;
   display: inline-block;
   margin-right: 1em;
+  font-weight: 100;
 }
 
 form {
@@ -95,6 +99,7 @@ li.checked {
 
 li.checked .text {
   text-decoration: line-through;
+  font-style: italic;
 }
 
 li.private {
